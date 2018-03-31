@@ -36,4 +36,18 @@
       </dependency>
       
   </dependencies>
+<distributionManagement>
+  <repository>
+    <id>romanConverter</id>
+	<name>Internal Release</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://localhost:8081/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>romanConverter</id>
+	<name>Internal Release</name>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://localhost:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
