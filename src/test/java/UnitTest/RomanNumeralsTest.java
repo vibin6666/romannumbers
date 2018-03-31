@@ -28,7 +28,7 @@ public class RomanNumeralsTest {
 
 		int inputNumber = 2;
 
-		String expectedResult = "I";
+		String expectedResult = "II";
 		//act
 
 		String actualResult = converter.convert(inputNumber);
